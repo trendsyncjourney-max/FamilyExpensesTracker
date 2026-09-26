@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 360" width="480" height="360">
+  <rect width="480" height="360" fill="#FAF7F2"/>
+  <g fill="none" stroke="#0F6B4F" stroke-width="5" stroke-linecap="round" stroke-linejoin="round">
+    <!-- empty receipt roll -->
+    <path d="M140 250 L 140 120 A 50 50 0 0 1 240 120 L 240 250" stroke="#1C1A17" opacity="0.85"/>
+    <path d="M240 250 L 240 120 A 50 50 0 0 1 340 120 L 340 250" stroke="#1C1A17" opacity="0.35" stroke-dasharray="2 10"/>
+    <!-- roll core -->
+    <circle cx="190" cy="122" r="18" stroke="#1C1A17" opacity="0.5"/>
+    <!-- unrolled sheet with perforation -->
+    <path d="M140 250 L 340 250 L 340 300" stroke="#1C1A17" opacity="0.85"/>
+    <path d="M140 300 L 340 300" stroke-dasharray="6 8" stroke-width="3" opacity="0.5"/>
+    <path d="M140 250 L 140 300" stroke="#1C1A17" opacity="0.85"/>
+    <!-- single accent-green dash -->
+    <path d="M200 275 L 280 275" stroke="#0F6B4F" stroke-width="7"/>
+  </g>
+</svg>

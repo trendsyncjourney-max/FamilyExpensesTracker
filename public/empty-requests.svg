@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 360" width="480" height="360">
+  <rect width="480" height="360" fill="#FAF7F2"/>
+  <g fill="none" stroke="#1C1A17" stroke-width="5" stroke-linecap="round" stroke-linejoin="round">
+    <!-- left hand -->
+    <path d="M60 200 C 90 170, 130 160, 170 176 L 196 188" opacity="0.85"/>
+    <path d="M60 232 C 96 226, 140 224, 182 226" opacity="0.6"/>
+    <!-- right hand -->
+    <path d="M420 200 C 390 170, 350 160, 310 176 L 284 188" opacity="0.85"/>
+    <path d="M420 232 C 384 226, 340 224, 298 226" opacity="0.6"/>
+    <!-- envelope -->
+    <rect x="186" y="150" width="108" height="76" rx="8" stroke="#0F6B4F"/>
+    <path d="M186 158 L 240 198 L 294 158" stroke="#0F6B4F"/>
+    <!-- checkmark -->
+    <path d="M222 262 L 236 276 L 262 246" stroke="#0F6B4F" stroke-width="7"/>
+  </g>
+</svg>

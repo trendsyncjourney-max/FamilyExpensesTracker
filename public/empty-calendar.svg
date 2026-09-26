@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 360" width="480" height="360">
+  <rect width="480" height="360" fill="#FAF7F2"/>
+  <g fill="none" stroke="#1C1A17" stroke-width="5" stroke-linecap="round" stroke-linejoin="round">
+    <!-- calendar page -->
+    <rect x="110" y="80" width="240" height="220" rx="14" opacity="0.85"/>
+    <path d="M110 124 L 350 124" opacity="0.85"/>
+    <!-- hangers -->
+    <path d="M170 64 L 170 96" opacity="0.85"/>
+    <path d="M290 64 L 290 96" opacity="0.85"/>
+    <!-- grid -->
+    <g stroke-width="3" opacity="0.35">
+      <path d="M110 168 L 350 168 M110 212 L 350 212 M110 256 L 350 256"/>
+      <path d="M158 124 L 158 300 M206 124 L 206 300 M254 124 L 254 300 M302 124 L 302 300"/>
+    </g>
+    <!-- blue projected dots -->
+    <g fill="#2F5FA8" stroke="none">
+      <circle cx="182" cy="190" r="6"/>
+      <circle cx="278" cy="234" r="6"/>
+      <circle cx="134" cy="278" r="6"/>
+    </g>
+    <!-- pencil -->
+    <g stroke="#0F6B4F">
+      <path d="M330 290 L 396 224 L 414 242 L 348 308 Z"/>
+      <path d="M396 224 L 414 242"/>
+    </g>
+  </g>
+</svg>

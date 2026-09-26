@@ -1,0 +1,98 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* shadcn tokens (kept for ui primitives) */
+    --background: 0 0% 100%;
+    --foreground: 240 10% 3.9%;
+    --card: 0 0% 100%;
+    --card-foreground: 240 10% 3.9%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 240 10% 3.9%;
+    --primary: 240 5.9% 10%;
+    --primary-foreground: 0 0% 98%;
+    --secondary: 240 4.8% 95.9%;
+    --secondary-foreground: 240 5.9% 10%;
+    --muted: 240 4.8% 95.9%;
+    --muted-foreground: 240 3.8% 46.1%;
+    --accent: 240 4.8% 95.9%;
+    --accent-foreground: 240 5.9% 10%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 240 5.9% 90%;
+    --input: 240 5.9% 90%;
+    --ring: 240 5.9% 10%;
+    --radius: 0.625rem;
+    --sidebar-background: 0 0% 98%;
+    --sidebar-foreground: 240 5.3% 26.1%;
+    --sidebar-primary: 240 5.9% 10%;
+    --sidebar-primary-foreground: 0 0% 98%;
+    --sidebar-accent: 240 4.8% 95.9%;
+    --sidebar-accent-foreground: 240 5.9% 10%;
+    --sidebar-border: 220 13% 91%;
+    --sidebar-ring: 217.2 91.2% 59.8%;
+
+    /* Hearth design tokens — light theme (design.md §2) */
+    --h-bg: #FAF7F2;
+    --h-surface: #FFFFFF;
+    --h-surface-2: #F3EFE7;
+    --h-ink: #1C1A17;
+    --h-ink-2: #6B655C;
+    --h-line: #E7E1D6;
+    --h-accent: #0F6B4F;
+    --h-accent-soft: #E1F0E9;
+    --h-amber: #B4761B;
+    --h-rose: #B23B3B;
+    --h-blue: #2F5FA8;
+    --h-personal: #6B4FA8;
+    --h-gold: #C9A227;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    :root {
+      /* Hearth design tokens — dark theme */
+      --h-bg: #141311;
+      --h-surface: #1E1C19;
+      --h-surface-2: #26231F;
+      --h-ink: #F4F1EA;
+      --h-ink-2: #A8A198;
+      --h-line: #33302A;
+      --h-accent: #3FBF92;
+      --h-accent-soft: #15342B;
+      --h-amber: #E3A94C;
+      --h-rose: #E0685E;
+      --h-blue: #6F97D8;
+      --h-personal: #A98BE0;
+      --h-gold: #D9B64A;
+    }
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  html {
+    font-family: Inter, system-ui, sans-serif;
+  }
+  body {
+    @apply bg-hearth-bg text-hearth-ink antialiased;
+  }
+}
+
+@layer components {
+  /* The Ledger Line — 1px rule with a small diamond tick (design.md §1) */
+  .ledger-divider {
+    @apply relative flex items-center gap-3;
+  }
+  .ledger-divider::before,
+  .ledger-divider::after {
+    content: "";
+    @apply h-px flex-1 bg-hearth-line;
+  }
+  .ledger-divider .ledger-diamond {
+    @apply inline-block h-1.5 w-1.5 rotate-45 bg-hearth-line;
+  }
+}

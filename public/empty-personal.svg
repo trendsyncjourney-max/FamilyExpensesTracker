@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 360" width="480" height="360">
+  <rect width="480" height="360" fill="#FAF7F2"/>
+  <g fill="none" stroke="#1C1A17" stroke-width="5" stroke-linecap="round" stroke-linejoin="round">
+    <!-- closed journal -->
+    <rect x="150" y="80" width="180" height="210" rx="14" opacity="0.85"/>
+    <path d="M186 80 L 186 290" opacity="0.5"/>
+    <!-- elastic band -->
+    <path d="M312 80 L 312 290" stroke-width="3" opacity="0.35"/>
+    <!-- lock -->
+    <g stroke="#6B4FA8">
+      <rect x="216" y="172" width="48" height="40" rx="8" fill="#6B4FA8" fill-opacity="0.12"/>
+      <path d="M226 172 L 226 156 A 14 14 0 0 1 254 156 L 254 172"/>
+      <circle cx="240" cy="192" r="4" fill="#6B4FA8" stroke="none"/>
+    </g>
+    <!-- faint lines -->
+    <g stroke-width="3" opacity="0.3">
+      <path d="M206 116 L 274 116"/>
+      <path d="M206 138 L 254 138"/>
+    </g>
+  </g>
+</svg>

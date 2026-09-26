@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <!-- Hearth wordmark: open book whose spine forms a house roofline -->
+  <g fill="none" stroke="#0F6B4F" stroke-width="14" stroke-linecap="round" stroke-linejoin="round">
+    <!-- open book -->
+    <path d="M256 168 C 220 140, 160 132, 92 140 L 92 372 C 160 364, 220 372, 256 400 C 292 372, 352 364, 420 372 L 420 140 C 352 132, 292 140, 256 168 Z" fill="#FFFFFF"/>
+    <!-- spine as house roofline -->
+    <path d="M256 168 L 256 400"/>
+    <path d="M206 168 L 256 108 L 306 168"/>
+    <!-- chimney -->
+    <path d="M286 128 L 286 96"/>
+    <!-- ledger lines on pages -->
+    <path d="M124 200 L 224 214" stroke-width="9" opacity="0.55"/>
+    <path d="M124 248 L 224 262" stroke-width="9" opacity="0.55"/>
+    <path d="M124 296 L 224 310" stroke-width="9" opacity="0.55"/>
+    <path d="M288 214 L 388 200" stroke-width="9" opacity="0.55"/>
+    <path d="M288 262 L 388 248" stroke-width="9" opacity="0.55"/>
+    <path d="M288 310 L 388 296" stroke-width="9" opacity="0.55"/>
+  </g>
+  <!-- diamond tick -->
+  <rect x="243" y="414" width="26" height="26" rx="3" transform="rotate(45 256 427)" fill="#0F6B4F"/>
+</svg>

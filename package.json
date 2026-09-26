@@ -1,7 +1,8 @@
 {
-  "name": "my-app",
+  "name": "family-expenses-tracker",
   "private": true,
-  "version": "0.0.0",
+  "version": "1.0.0",
+  "description": "Hearth — a family expense tracker PWA for couples: receipts, reimbursements, advances, and a projected-expense calendar with personal privacy.",
   "type": "module",
   "scripts": {
     "dev": "vite",
